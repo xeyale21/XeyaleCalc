@@ -1,0 +1,80 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn:active {
+  background-color:#bbbcbe ;
+}
+.btn-func:active {
+  background-color:#dd8d37;
+}
+.btn:hover{
+   background-color: #ebebeb;
+}
+.btn-func:hover{
+   background-color: #dfb07e;
+}
+.contianer {
+    width: 40rem;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.screen{
+   width: 280px;
+   height: 70px;
+   background-color: black;
+   color: white;
+   font-size: 30px;
+}
+.p{
+padding-left: 250px;
+padding-top: 18px;
+}
+
+.btn{
+   width: 70px;
+   height: 70px;
+margin-right: 0px;
+color: black;
+font-size: 30px;
+background-color: #d8d9db;
+border:solid;
+border-color: black;
+border-width: 0.1px;
+}
+
+.clear{
+width: 140px;
+height: 70px;
+}
+.zero{
+   width: 210px;
+}
+.row{
+display: flex;
+}
+.btn-func{
+   background-color:#df974c; 
+   color:white;
+}
